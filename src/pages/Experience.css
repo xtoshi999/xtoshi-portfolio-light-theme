@@ -101,7 +101,8 @@
   background-color: var(--bg-primary);
   box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
   transform: translateY(-30px);
-  width: 80%;
+  width: 1320px;
+  max-width: 80%;
   /* height: 50%; */
 }
 
@@ -152,6 +153,9 @@
 .experience-toolkit img {
   height: 150px;
   width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .experience-toolkit-container {

@@ -2,8 +2,8 @@ const SIG = () => {
   return (
     <>
       <div className="experience sig">
-        <p className="experience-role">IT Support Co-op</p>
-        <p className="experience-company">Susquehanna Int'l Group</p>
+        <p className="experience-role">Web3 & Blockchain Engineer</p>
+        <p className="experience-company">Seattle AI</p>
         <div className="experience-description">
           <ul>
             <li>

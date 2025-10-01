@@ -6,10 +6,8 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   const words = [
-    " web developer.",
-    " software engineer.",
-    " musician.",
-    " gamer.",
+    " FS Web3 Developer.",
+    " Trading Bot Engineer.",
   ];
 
   const navigate = useNavigate();
@@ -77,7 +75,7 @@ const LandingPage = () => {
     let masterTl = gsap.timeline({ repeat: -1 }).pause();
 
     words.forEach((word) => {
-      let tl = gsap.timeline({ repeat: 1, yoyo: true, repeatDelay: 1 });
+      let tl = gsap.timeline({ repeat: 1, yoyo: true, repeatDelay: 1.2 });
       tl.to(".text", { duration: 1, text: word });
       masterTl.add(tl);
     });
@@ -92,17 +90,17 @@ const LandingPage = () => {
           <div className="header-btn header-btn3"></div>
         </div>
         <div className="header-text">
-          <p>justins-portfolio &#8212; -bash</p>
+          <p>WELOME TO MY SPACE</p>
         </div>
       </div>
       <div className="terminal-body">
         <div className="terminal-bg-text">
-          <p>justins-MB:~ justins-portfolio$ ls</p>
+          <p>David-MB:~ david-portfolio$ ls</p>
           <p>About Experience Projects Contact</p>
         </div>
         <div className="terminal-main-text">
           <p>
-            Hi, I'm <span>Justin.</span>
+            Hi, I'm <span>David.</span>
           </p>
           <p className="gsap-animation">
             <span className="box"></span>
@@ -113,19 +111,16 @@ const LandingPage = () => {
         </div>
         <div className="terminal-btns">
           <button onClick={aboutNav} className="terminal-btn terminal-btn1">
-            cd About/ &#8594;
+            About
           </button>
           <button
             onClick={experienceNav}
             className="terminal-btn terminal-btn2"
           >
-            cd Experience/ <span>&#8594;</span>
+            Experience 
           </button>
           <button onClick={projectsNav} className="terminal-btn terminal-btn3">
-            cd Projects/ &#8594;
-          </button>
-          <button onClick={contactNav} className="terminal-btn terminal-btn4">
-            cd Contact/ &#8594;
+            Projects
           </button>
         </div>
       </div>

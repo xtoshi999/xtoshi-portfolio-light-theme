@@ -3,20 +3,21 @@ const Comcast = () => {
       <>
         <div className="experience comcast">
           <p className="experience-role">Full Stack Developer</p>
-          <p className="experience-company">Comcast</p>
+          <p className="experience-company"></p>
           <div className="experience-description">
             <ul>
               <li>
-                Contributed to the development of a product that reduced operational costs by $12 million annually, 
-                working collaboratively with cross-functional teams to ensure successful integration and deployment
+              Built scalable web applications using the MERN stack (MongoDB, Express.js, React, Node.js).
               </li>
               <li>
                 Engineered, maintained, and delivered over 10 high-impact features, enhancing the workflow for 
                 hundreds of network engineers managing a network of 300,000 devices
               </li>
               <li>
-                Authored comprehensive documentation on feature usage and the complexities of networking devices, 
-                empowering users and internal teams with critical knowledge for effective operation and troubleshooting
+              Designed REST and WebSocket APIs for real-time data processing.
+              </li>
+              <li>
+              Collaborated with cross-functional teams to deliver SaaS products for financial clients.
               </li>
             </ul>
           </div>

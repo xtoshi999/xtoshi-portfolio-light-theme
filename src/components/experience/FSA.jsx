@@ -3,39 +3,31 @@ const FSA = () => {
     <>
       <div className="experience fsa">
         {/* <p className="experience-role"></p> */}
-        <p className="experience-company-fsa">Fullstack Academy</p>
+        <p className="experience-company-fsa">Trading Systems Engineer</p>
+        <p className="experience-company"></p>
         <div className="experience-description">
           <ul>
             <li>
-              Immersive 13-week program for Full-stack web development utilizing
-              the PERN stack.
+            Developed high-frequency trading bots in Python, integrating with Binance and Coinbase APIs.
             </li>
             <li>
-              Front end development: JavaScript, CSS, HTML, React, Redux
-              (toolkit)
-              <br></br>
-              Back end development: Node.js, Express, Axios, Services and APIs
-              <br></br>
-              Data Systems: PostgreSQL, Sequelize, pg
+            Implemented backtesting frameworks using Pandas, NumPy, and Backtrader to optimize strategies.
             </li>
             <li>
-              Object Oriented Programming, full-stack applications, Single-Page
-              Applications
+            Automated arbitrage and market-making strategies across centralized and decentralized exchanges.
             </li>
             <li>
-              Expertise in developer tools & debugging: Git, Bash, Visual Studio
-              Code, Chrome Developer Tools, Mocha and Chai testing frameworks,
-              Firebase
+            Delivered trading bots that processed over $1.2M in simulated trades with zero downtime.
             </li>
           </ul>
         </div>
       </div>
       <div className="experience-toolkit-container">
         <div className="experience-toolkit">
-          <img src="/toolkit-logos/node.png" alt="node logo" />
-          <img src="/toolkit-logos/express.png" alt="express logo" />
-          <img src="/toolkit-logos/react.png" alt="react logo" />
-          <img src="/toolkit-logos/postgres.png" alt="postgres logo" />
+          <img src="/toolkit-logos/python.png" alt="python logo" />
+          <img src="/toolkit-logos/tradingview.png" alt="tradingview logo" />
+          <img src="/toolkit-logos/arbitrage.jpg" alt="arbitrage logo" />
+          <img src="/toolkit-logos/sniper.jpg" alt="sniper logo" />
         </div>
       </div>
     </>

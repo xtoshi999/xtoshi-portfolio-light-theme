@@ -87,7 +87,7 @@ const Header = () => {
       <nav>
         <div className="left-nav">
           <button onClick={handleHome}>
-            <img src="/logo.png" alt="logo with a hand drawn J" />
+            <img src="/logo.png" alt="logo with a hand drawn A" />
           </button>
         </div>
         {currentRoute === "/home" ? null : (
