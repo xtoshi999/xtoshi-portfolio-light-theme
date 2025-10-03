@@ -112,7 +112,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div>             
 
         <div 
           className={`project ${activeFilter === "all" || activeFilter === "fs" ? "" : "hidden"}`} 
@@ -181,7 +181,7 @@ const Projects = () => {
             </div>
             <div className="project-btns">
               <a
-                href="https://github.com/warmh2/virtual-companion-platform"
+                href="https://github.com/xtoshi999/virtual-companion-platform"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -219,7 +219,7 @@ const Projects = () => {
             </div>
             <div className="project-btns">
               <a
-                href="https://justshift.io/"
+                href="https://justshift.io"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -235,12 +235,12 @@ const Projects = () => {
           data-category="fs" >
           <div className="project-img">
             <a
-              href="https://github.com/xtoshi999/food-inventory"
+              href="https://github.com/xtoshi999/web3_crowdfunding"
               target="_blank"
               rel="noopen noreferrer"
             >
               <img
-                src="/projects/Food inventory.png"
+                src="/projects/crowd.jpg"
                 alt="peak performance landing page"
               />
             </a>
@@ -248,17 +248,17 @@ const Projects = () => {
           <div className="project-info">
             <h2 className="project-title">FullStack Developer</h2>
             <p>
-            A versatile app designed to help users manage their food inventory while also assisting food-insecure individuals in locating nearby free food resources.
+            Crowd3D, pronounced "crowded", is a web3 crowdfunding application using Vite.js, Tailwind CSS, & the Thirdweb SDK.
             </p>
             <div className="project-tools">
-              <p>JavaScript</p>
-              <p>Java</p>
-              <p>Flutter</p>
-              <p>Python</p>
+              <p>Web3.js</p>
+              <p>Hardhat</p>
+              <p>Vite.js</p>
+              <p>Tailwind Css</p>
             </div>
             <div className="project-btns">
               <a
-                href="https://github.com/xtoshi999/food-inventory"
+                href="https://github.com/xtoshi999/web3_crowdfunding"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -273,68 +273,29 @@ const Projects = () => {
           data-category="fs" >
           <div className="project-img">
             <a
-              href="https://storyfile.com"
+              href="https://github.com/xtoshi999/Income_Tax_Fraud_Detection_Using_AI-ML"
               target="_blank"
               rel="noopen noreferrer"
             >
               <img
-                src="/projects/storyfile.png"
-                alt="story landing page"
+                src="/projects/income_tax.jpg"
+                alt="peak performance landing page"
               />
             </a>
           </div>
           <div className="project-info">
-            <h2 className="project-title">AI Agent Developer</h2>
+            <h2 className="project-title">AI Developer</h2>
             <p>
-            StoryFile is an AI-powered video platform that allows users to create and train conversational AI interactions, making AI conversations feel more human.
+            Developed a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.
             </p>
             <div className="project-tools">
               <p>Python</p>
-              <p>JavaScript</p>
-              <p>Next.js</p>
-              <p>ML</p>
+              <p>Machine Learning</p>
+              <p>AI</p>
             </div>
             <div className="project-btns">
               <a
-                href="https://storyfile.com"
-                target="_blank"
-                rel="noopen noreferrer"
-              >
-                Visit
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div 
-          className={`project ${activeFilter === "all" || activeFilter === "web3" ? "" : "hidden"}`} 
-          data-category="web3" >
-          <div className="project-img">
-            <a
-              href="https://vegas.fun/"
-              target="_blank"
-              rel="noopen noreferrer"
-            >
-              <img
-                src="/projects/vegas.png"
-                alt="story landing page"
-              />
-            </a>
-          </div>
-          <div className="project-info">
-            <h2 className="project-title">Web3 Developer</h2>
-            <p>
-            Vegas Fun brings the fun and excitement of Las Vegas anywhere in the world! Play exciting, free, premium slots on your mobile phone or tablet 
-            </p>
-            <div className="project-tools">
-              <p>Web3.js</p>
-              <p>Node.js</p>
-              <p>Next.js</p>
-              <p>Solidity</p>
-            </div>
-            <div className="project-btns">
-              <a
-                href="https://vegas.fun/"
+                href="https://github.com/xtoshi999/Income_Tax_Fraud_Detection_Using_AI-ML"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -381,35 +342,69 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div 
-          className={`project ${activeFilter === "all" || activeFilter === "web3" ? "" : "hidden"}`} 
-          data-category="web3" >
+        
+        <div className={`project ${activeFilter === "all" || activeFilter === "fs" ? "" : "hidden"}`} data-category="fs" >
           <div className="project-img">
             <a
-              href="https://puffdognft.vercel.app/"
+              href="https://github.com/xtoshi999/TG-Quiz-App"
               target="_blank"
               rel="noopen noreferrer"
             >
               <img
-                src="/projects/puff.png"
-                alt="story landing page"
+                src="/projects/quizbot.gif"
+                alt="peak performance landing page"
               />
             </a>
           </div>
           <div className="project-info">
-            <h2 className="project-title">Web3 Developer</h2>
+            <h2 className="project-title">Fullstack Developer</h2>
             <p>
-            PUFF DOG ("PUFF") is a meme-driven cryptocurrency built on the Solanablockchain, integrating NFTs and gaming tocreate an engaging ecosystem for the PUFF community.
+            Telegram bot for quiz game that players get profit answering questions.
             </p>
             <div className="project-tools">
-              <p>Web3.js</p>
-              <p>Rust</p>
-              <p>Node.js</p>
-              <p>React.js</p>
+              <p>TG SDK</p>
+              <p>Typescript</p>
+              <p>MongoDB</p>
             </div>
             <div className="project-btns">
               <a
-                href="https://puffdognft.vercel.app/"
+                href="https://github.com/xtoshi999/TG-Quiz-App"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+        <div 
+          className={`project ${activeFilter === "all" || activeFilter === "fs" ? "" : "hidden"}`} 
+          data-category="fs" >
+          <div className="project-img">
+            <a
+              href="https://github.com/xtoshi999/Oral-Cancer-Detection-and-Classification"
+              target="_blank"
+              rel="noopen noreferrer"
+            >
+              <img
+                src="/projects/oral_cancer.jpg"
+                alt="peak performance landing page"
+              />
+            </a>
+          </div>
+          <div className="project-info">
+            <h2 className="project-title">AI Developer</h2>
+            <p>
+            Developing a machine learning model to detect and classify oral cancer levels from images. It involves data collection, preprocessing, feature extraction, and model evaluation.
+            </p>
+            <div className="project-tools">
+              <p>Python</p>
+              <p>TensorFlow</p>
+              <p>Neural Netwroks</p>
+            </div>
+            <div className="project-btns">
+              <a
+                href="https://github.com/xtoshi999/Oral-Cancer-Detection-and-Classification"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -423,7 +418,7 @@ const Projects = () => {
           data-category="trading" >
           <div className="project-img">
             <a
-              href="https://github.com/xtoshi999/solana-arbitrage-bot"
+              href="https://github.com/xtoshi999/Profitable-Solana-Arbitrage-Bot"
               target="_blank"
               rel="noopen noreferrer"
             >
@@ -446,7 +441,7 @@ const Projects = () => {
             </div>
             <div className="project-btns">
               <a
-                href="https://github.com/xtoshi999/solana-arbitrage-bot"
+                href="https://github.com/xtoshi999/Profitable-Solana-Arbitrage-Bot"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -455,6 +450,226 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        
+        <div  
+          className={`project ${activeFilter === "all" || activeFilter === "web3" ? "" : "hidden"}`} 
+          data-category="web3" >
+          <div className="project-img">
+            <a
+              href="https://myai.zone/image-ai"
+              target="_blank"
+              rel="noopen noreferrer"
+            >
+              <img
+                src="/projects/myzone.png"
+                alt="peak performance landing page"
+              />
+            </a>
+          </div>
+          <div className="project-info">
+            <h2 className="project-title">FS Web3 Developer</h2>
+            <p>
+            Developing low cost API and website where MyAi token owners able to generate AI Images for free and mint them as high quality NFT as an exclusive owners.         
+            </p>
+            <div className="project-tools">
+              <p>Python</p>
+              <p>Web3.js</p>
+              <p>Node.js</p>
+            </div>
+            <div className="project-btns">
+              <a
+                href="https://myai.zone/image-ai"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className={`project ${activeFilter === "all" || activeFilter === "fs" ? "" : "hidden"}`} data-category="fs" >
+          <div className="project-img">
+            <a
+              href="https://github.com/xtoshi999/Ton-TG-mini-app"
+              target="_blank"
+              rel="noopen noreferrer"
+            >
+              <img
+                src="/projects/tg-mini-app.gif"
+                alt="peak performance landing page"
+              />
+            </a>
+          </div>
+          <div className="project-info">
+            <h2 className="project-title">FS Web3 Developer</h2>
+            <p>
+            Telegram mini app game running on Ton blockchain.
+            </p>
+            <div className="project-tools">
+              <p>TG SDK</p>
+              <p>Typescript</p>
+              <p>MongoDB</p>
+            </div>
+            <div className="project-btns">
+              <a
+                href="https://github.com/xtoshi999/Ton-TG-mini-app"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div 
+          className={`project ${activeFilter === "all" || activeFilter === "fs" ? "" : "hidden"}`} 
+          data-category="fs" >
+          <div className="project-img">
+            <a
+              href="https://github.com/xtoshi999/CC-Fraud-Detection"
+              target="_blank"
+              rel="noopen noreferrer"
+            >
+              <img
+                src="/projects/credit_card_detection.jpg"
+                alt="peak performance landing page"
+              />
+            </a>
+          </div>
+          <div className="project-info">
+            <h2 className="project-title">AI Developer</h2>
+            <p>
+            A simple machine learning model which analyzes whether a credit card transaction is fraudulent or not. The dataset is downloaded from Kaggle and processed for analysis.
+            </p>
+            <div className="project-tools">
+              <p>Python</p>
+              <p>Machine Learning</p>
+              <p>Data Science</p>
+            </div>
+            <div className="project-btns">
+              <a
+                href="https://github.com/xtoshi999/CC-Fraud-Detection"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project" data-category="fs" style={{ display: activeFilter === "all" || activeFilter === "fs" ? "flex" : "none" }}>
+          <div className="project-img">
+            <a
+              href="https://github.com/xtoshi999/Nexplore_app"
+              target="_blank"
+              rel="noopen noreferrer"
+            >
+              <img
+                src="/projects/nexplore.jpg"
+                alt="peak performance landing page"
+              />
+            </a>
+          </div>
+          <div className="project-info">
+            <h2 className="project-title">FS Developer</h2>
+            <p>
+            Nexplore is a mobile application where users can search and find local hotel, restaurants, and attractions within a particular area
+            </p>
+            <div className="project-tools">
+              <p>React Native</p>
+              <p>Expo SDK</p>
+              <p>Tailwind CSS</p>
+              <p>TypeScript</p>
+            </div>
+            <div className="project-btns">
+              <a
+                href="https://github.com/xtoshi999/Nexplore_app"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div 
+          className={`project ${activeFilter === "all" || activeFilter === "fs" ? "" : "hidden"}`} 
+          data-category="fs" >
+          <div className="project-img">
+            <a
+              href="https://github.com/xtoshi999/contextualized-topic-models"
+              target="_blank"
+              rel="noopen noreferrer"
+            >
+              <img
+                src="/projects/contextual.jpg"
+                alt="peak performance landing page"
+              />
+            </a>
+          </div>
+          <div className="project-info">
+            <h2 className="project-title">AI Developer</h2>
+            <p>
+            A python package to run contextualized topic modeling. CTMs combine contextualized embeddings (e.g., BERT) with topic models to get coherent topics and document classification.
+            </p>
+            <div className="project-tools">
+              <p>Python</p>
+              <p>Machine Learning</p>
+              <p>NLP</p>
+            </div>
+            <div className="project-btns">
+              <a
+                href="https://github.com/xtoshi999/contextualized-topic-models"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div 
+          className={`project ${activeFilter === "all" || activeFilter === "web3" ? "" : "hidden"}`} 
+          data-category="web3" >
+          <div className="project-img">
+            <a
+              href="https://puffdognft.vercel.app/"
+              target="_blank"
+              rel="noopen noreferrer"
+            >
+              <img
+                src="/projects/puff.png"
+                alt="peak performance landing page"
+              />
+            </a>
+          </div>
+          <div className="project-info">
+            <h2 className="project-title">Web3 Developer</h2>
+            <p>
+            PUFF DOG ("PUFF") is a meme-driven cryptocurrency built on the Solanablockchain, integrating NFTs and gaming tocreate an engaging ecosystem for the PUFF community.
+            </p>
+            <div className="project-tools">
+              <p>Python</p>
+              <p>Machine Learning</p>
+              <p>NLP</p>
+            </div>
+            <div className="project-btns">
+              <a
+                href="https://puffdognft.vercel.app/"
+                target="_blank"
+                rel="noopen noreferrer"
+              >
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div 
           className={`project ${activeFilter === "all" || activeFilter === "fs" ? "" : "hidden"}`} 
           data-category="fs" >
@@ -497,12 +712,12 @@ const Projects = () => {
           data-category="trading" >
           <div className="project-img">
             <a
-              href="https://github.com/xtoshi999/pumpfun-bot-telegram"
+              href="https://github.com/xtoshi999/Pumpfun-Volume-Bot-TG"
               target="_blank"
               rel="noopen noreferrer"
             >
               <img
-                src="/projects/pumpfunbot.jpg"
+                src="/projects/telegram_volume_bot.png"
                 alt="peak performance landing page"
               />
             </a>
@@ -520,7 +735,7 @@ const Projects = () => {
             </div>
             <div className="project-btns">
               <a
-                href="https://github.com/xtoshi999/pumpfun-bot-telegram"
+                href="https://github.com/xtoshi999/Pumpfun-Volume-Bot-TG"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -607,7 +822,7 @@ const Projects = () => {
           data-category="trading" >
           <div className="project-img">
             <a
-              href="https://github.com/xtoshi999/copy-trading-bot-telegram"
+              href="https://github.com/xtoshi999/Copy-Trading-Bot-Rust"
               target="_blank"
               rel="noopen noreferrer"
             >
@@ -625,12 +840,11 @@ const Projects = () => {
             <div className="project-tools">
               <p>Crypto Trading</p>
               <p>Solana</p>
-              <p>TypeScript</p>
-              <p>Telegram</p>
+              <p>Rust</p>
             </div>
             <div className="project-btns">
               <a
-                href="https://github.com/xtoshi999/copy-trading-bot-telegram"
+                href="https://github.com/xtoshi999/Copy-Trading-Bot-Rust"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -674,6 +888,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        
+
         <div className="project" data-category="web3" style={{ display: activeFilter === "all" || activeFilter === "web3" ? "flex" : "none" }}>
           <div className="project-img">
             <a
