@@ -104,7 +104,7 @@ const Projects = () => {
             </div>
             <div className="project-btns">
               <a
-                href="https://alibi-esports.onrender.com/"
+                href="https://littlepepe.com/"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -181,7 +181,7 @@ const Projects = () => {
             </div>
             <div className="project-btns">
               <a
-                href="https://alibi-esports.onrender.com/"
+                href="https://github.com/warmh2/virtual-companion-platform"
                 target="_blank"
                 rel="noopen noreferrer"
               >
@@ -219,7 +219,7 @@ const Projects = () => {
             </div>
             <div className="project-btns">
               <a
-                href="https://alibi-esports.onrender.com/"
+                href="https://justshift.io/"
                 target="_blank"
                 rel="noopen noreferrer"
               >
